@@ -99,7 +99,7 @@ function Canvas({ adInfo }) {
     const boxHeight = textHeight + 48;
 
     // Move the CTA box upwards by adjusting the y-coordinate
-    const boxY = 220; // Adjust this value to move the box upwards
+    const boxY = 300; // Adjust this value to move the box upwards
     const boxX = 100;
 
     drawRect(boxX, boxY, boxWidth, boxHeight, 20, backgroundColor, ctx);
