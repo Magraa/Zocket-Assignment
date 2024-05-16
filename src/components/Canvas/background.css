@@ -1,0 +1,49 @@
+
+  .diagonal-lines {
+    width: 50%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-color: #f0f0f0; /* Light background for better contrast */
+}
+
+.diagonal-lines::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 200%;
+    background: repeating-linear-gradient(
+        -45deg,
+        #8b0000, /* Dark red */
+        #8b0000 15px,
+        #ff6347 15px, /* Light red (Tomato) */
+        #ff6347 30px,
+        #ffcccc 30px, /* Very light red (Pinkish) */
+        #ffcccc 45px
+    ); /* Adjusted angles and color spacing for a more dynamic look */
+    transform: translateY(-25%); /* Slightly reduce the translation for better alignment */
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 0 45%;
+    color: #4c0e0e;
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background for text readability */
+    border-radius: 10px; /* Rounded corners for the content box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+@media screen and (max-width: 900px) {
+    .content {
+        padding: 0 5%;
+        color: #333;
+    }
+    .diagonal-lines {
+        width: 100%;
+        height: 50vh;
+    }
+}

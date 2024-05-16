@@ -1,0 +1,105 @@
+body {
+    background-color: #f7f7f7; /* Light background for the entire page */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .bg-white {
+    background-color: #ffffff;
+  }
+  
+  .rounded-lg {
+    border-radius: 0.5rem;
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .p-8 {
+    padding: 2rem;
+  }
+  
+  .mt-8 {
+    margin-top: 2rem;
+  }
+  
+  .mt-10 {
+    margin-top: 2.5rem;
+  }
+  
+  .mt-12 {
+    margin-top: 3rem;
+  }
+  
+  .my-8 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .mx-8 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  
+  .sm\:mx-16 {
+    @media (min-width: 640px) {
+      margin-left: 4rem;
+      margin-right: 4rem;
+    }
+  }
+  
+  .text-indigo-600 {
+    color: #4f46e5; /* Indigo color for headings */
+  }
+  
+  .text-gray-500 {
+    color: #6b7280;
+  }
+  
+  .text-gray-400 {
+    color: #9ca3af;
+  }
+  
+  .border-t {
+    border-top-width: 1px;
+  }
+  
+  .border-gray-300 {
+    border-color: #d1d5db;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-sm {
+    font-size: 0.875rem;
+  }
+  
+  .sm\:text-lg {
+    @media (min-width: 640px) {
+      font-size: 1.125rem;
+    }
+  }
+  
+  .text-2xl {
+    font-size: 1.5rem;
+  }
+  
+  .sm\:text-3xl {
+    @media (min-width: 640px) {
+      font-size: 1.875rem;
+    }
+  }
+  
+  .font-bold {
+    font-weight: 700;
+  }
+  
